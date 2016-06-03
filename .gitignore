@@ -15,6 +15,7 @@
 
 # Fortran module files
 *.mod
+*.smod
 
 # Compiled Static libraries
 *.lai
@@ -26,3 +27,18 @@
 *.exe
 *.out
 *.app
+
+*.aps
+*.idb
+*.ipch
+*.lastbuildstate
+*.log
+*.manifest
+*.obj
+*.pch
+*.pdb
+*.res
+*.sdf
+*.suo
+*.tlog
+*.user
