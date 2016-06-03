@@ -152,10 +152,14 @@
     <ClCompile Include="BankAccount.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BankAccount.h" />
     <ClInclude Include="Car.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

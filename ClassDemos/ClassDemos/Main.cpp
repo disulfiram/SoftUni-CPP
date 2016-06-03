@@ -2,6 +2,7 @@
 #include <string>
 #include "BankAccount.h"
 #include "Car.h"
+#include "Rectangle.h"
 
 using namespace std;
 
@@ -42,7 +43,15 @@ int main(int argc, char ** argv)
 	}
 #pragma endregion
 
-	
+#pragma region RectangleDemos
+	Rectangle square;
+	square.coordinate.x = 3;
+	square.coordinate.y = 4;
+	square.setHeight(5);
+	square.setWidth(5);
 
+	cout << "Square area: "<< square.area() << endl;
+	cout << "Square perimeter: " << square.parameter() << endl;
+#pragma endregion
 	return 0;
 }
