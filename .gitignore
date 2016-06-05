@@ -42,3 +42,5 @@
 *.suo
 *.tlog
 *.user
+*.db
+*.ilk
